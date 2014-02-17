@@ -1,0 +1,32 @@
+{
+  "name": "vrangler",
+  "version": "0.0.0",
+  "description": "Video Wrangling made easy. Standardise video links to appropriately configured embed tags.",
+  "main": "vrangler.js",
+  "dependencies": {
+    "bower": "~1.2.8"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.8.0",
+    "jshint-stylish": "~0.1.5",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "YouTube",
+    "Vimeo",
+    "video",
+    "regex",
+    "wrangle",
+    "wrangler",
+    "vrangler"
+  ],
+  "author": "Jay Lynch (hi@jaylyn.ch)",
+  "license": "MIT"
+}

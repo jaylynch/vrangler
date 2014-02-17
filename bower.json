@@ -1,0 +1,27 @@
+{
+  "name": "vrangler",
+  "main": "vrangler.js",
+  "version": "0.0.0",
+  "authors": [
+    "Jay Lynch (hi@jaylyn.ch)"
+  ],
+  "description": "Video Wrangling made easy. Standardise video links to appropriately configured embed tags.",
+  "keywords": [
+    "YouTube",
+    "Vimeo",
+    "video",
+    "regex",
+    "wrangle",
+    "wrangler",
+    "vrangler"
+  ],
+  "license": "MIT",
+  "homepage": "http://comet.is",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
