@@ -16,7 +16,6 @@
     "vrangler"
   ],
   "license": "MIT",
-  "homepage": "http://comet.is",
   "ignore": [
     "**/.*",
     "node_modules",

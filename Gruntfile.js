@@ -3,6 +3,7 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+    bower: grunt.file.readJSON('bower.json'),
 
     //  Basic configuration
     config: {
@@ -11,6 +12,24 @@ module.exports = function(grunt) {
     },
 
     //  Configure plugins
+    bump: {
+      options: {
+        commitFiles: [
+          'package.json',
+          'bower.json'
+        ],
+        files: [
+          'package.json',
+          'bower.json'
+        ],
+        pushTo: 'origin',
+        updateConfigs: [
+          'pkg',
+          'bower'
+        ]
+      }
+    },
+
     clean: {
       dist: {
         src: [
@@ -49,6 +68,7 @@ module.exports = function(grunt) {
     }
   });
 
+  grunt.loadNpmTasks('grunt-bump');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
@@ -63,4 +83,3 @@ module.exports = function(grunt) {
   });
 
 };
-
