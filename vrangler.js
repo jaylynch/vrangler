@@ -14,7 +14,7 @@ var vrangler = function(){
   }
 
   config.vimeoTag = function(config){
-    return '<iframe src="http://player.vimeo.com/video/$1?wmode=opaque&portrait=0&amp;color=ffffff"' +
+    return '<iframe src="//player.vimeo.com/video/$1?wmode=opaque&portrait=0&amp;color=ffffff"' +
                   ' width="' + config.embed.width + '"' +
                   ' height="' + config.embed.height + '"' +
                   ' frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>';
